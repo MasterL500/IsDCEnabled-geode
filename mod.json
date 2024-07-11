@@ -9,6 +9,7 @@
 	"version": "v1.0.0",
 	"developer": "ML5",
 	"description": "The name is enough to tell what this mod does.",
+	"tags": ["enhancement"],
 	"resources": {
 		"sprites": [
 			"resources/*.png"
