@@ -10,7 +10,7 @@ class $modify(CustomPauseLayer, PauseLayer) {
 		auto winSize = CCDirector::sharedDirector()->getWinSize();
 		auto GM = GameManager::sharedState();
 
-		log::debug("Disable Checkpoints: {}", GM->getGameVariable("0146"));
+		//	log::debug("Disable Checkpoints: {}", GM->getGameVariable("0146"));
 
 		if(GM->getGameVariable("0146")){
 			auto checkpointsLabel = CCSprite::create("checkpointsText.png"_spr);
