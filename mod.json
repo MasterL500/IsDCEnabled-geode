@@ -1,19 +1,27 @@
 {
-	"geode": "3.2.0",
+	"geode": "4.0.0-beta.1",
+	"version": "v1.0.2",
 	"gd": {
-		"win": "2.206",
-		"mac": "2.206",
-		"android": "2.206"
+		"win": "2.2074",
+		"mac": "2.2074",
+		"android": "2.2074"
 	},
 	"id": "ml5.checkpoint-vibe-check",
 	"name": "Is \"Disable checkpoints\" on?",
-	"version": "v1.0.0",
-	"developer": "ML500",
-	"description": "The name is enough to tell what this mod does.",
-	"tags": ["enhancement"],
+	"developers": ["ML500"],
+	"description": "The name is self-explanatory",
+	"settings": {
+		"show-icon": {
+			"type": "bool",
+			"name": "Show In-game icon",
+			"description": "Displays an icon in-game if you have the setting enabled. (Only on platformer)",
+			"default": false
+		}
+	},
 	"resources": {
 		"sprites": [
 			"resources/*.png"
 		]
-	}
+	},
+	"tags": ["enhancement"]
 }
