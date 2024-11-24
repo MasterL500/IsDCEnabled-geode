@@ -1,6 +1,6 @@
 {
-	"geode": "4.0.0-beta.1",
-	"version": "v1.0.1",
+	"geode": "4.0.1",
+	"version": "v1.0.2",
 	"gd": {
 		"win": "2.2074",
 		"mac": "2.2074",
@@ -10,6 +10,9 @@
 	"name": "Is \"Disable checkpoints\" on?",
 	"developers": ["ML500"],
 	"description": "The name is self-explanatory",
+	"links": {
+		"source": "https://github.com/MasterL500/IsDCEnabled-geode"
+    },
 	"settings": {
 		"show-icon": {
 			"type": "bool",
