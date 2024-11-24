@@ -14,7 +14,7 @@ class $modify(CustomPauseLayer, PauseLayer)
 
 		if (GM->getGameVariable("0146"))
 		{
-			auto checkpointsLabel = CCSprite::create("DCE_CheckpointsText.png"_spr);
+			auto checkpointsLabel = CCSprite::create("DCE_Text.png"_spr);
 			checkpointsLabel->setPosition({winSize.width / 2 + 224.f, winSize.height / 2 + 100.f});
 			checkpointsLabel->setID("disabled-checkpoints-label");
 
@@ -38,7 +38,7 @@ class $modify(CustomPlayLayer, PlayLayer)
 
 		if (GM->getGameVariable("0146"))
 		{
-			auto checkpointsIcon = CCSprite::create("DCE_CheckpointsIcon.png"_spr);
+			auto checkpointsIcon = CCSprite::create("DCE_Icon.png"_spr);
 			checkpointsIcon->setPosition({winSize.width / 2, 20.0f});
 			checkpointsIcon->setOpacity(125);
 			checkpointsIcon->setScale(0.75f);

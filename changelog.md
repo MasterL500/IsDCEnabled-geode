@@ -1,11 +1,14 @@
 # Changelog
 
-## <cg>v1.0.1 (Latest)</c>
+### <cg>v1.0.2 (Latest)</c>
 
-* <co>Ported to Geode v4.0.0-beta.1</c>
-* <cy>Added</c> Icon that shows up in-game.
-* <cy>Added</c> setting to the feature above.
+* <cy>Fixed</c> missing texture errors
+
+### <cb>v1.0.1</c>
+
+* <co>Ported to Geode v4.0.0</c>
+* <cg>Added</c> Icon thats displayed in-game
 
 ### <cb>v1.0.0</c>
 
-* <cp>Initial Release</c>
+* <cp>Initial Release.</c>
