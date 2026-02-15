@@ -1,18 +1,15 @@
 {
-	"geode": "4.0.1",
-	"version": "v1.0.2",
+	"geode": "5.0.0-beta.1",
 	"gd": {
-		"win": "2.2074",
-		"mac": "2.2074",
-		"android": "2.2074"
+		"win": "2.2081",
+		"mac": "2.2081",
+		"android": "2.2081"
 	},
 	"id": "ml5.checkpoint-vibe-check",
 	"name": "Is \"Disable checkpoints\" on?",
-	"developers": ["ML500"],
+	"version": "v1.0.3-beta.1",
+	"developer": "ML500",
 	"description": "The name is self-explanatory",
-	"links": {
-		"source": "https://github.com/MasterL500/IsDCEnabled-geode"
-    },
 	"settings": {
 		"show-icon": {
 			"type": "bool",
@@ -26,5 +23,12 @@
 			"resources/*.png"
 		]
 	},
-	"tags": ["enhancement"]
+	"links": {
+		"source": "https://github.com/MasterL500/IsDCEnabled-geode",
+		"community": "https://discord.gg/tFUyJw5",
+		"homepage": "https://ml500.carrd.co/"
+	},
+	"tags": [
+		"enhancement"
+	]
 }
