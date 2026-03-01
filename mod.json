@@ -1,5 +1,5 @@
 {
-	"geode": "5.0.0-beta.2",
+	"geode": "5.2.0",
 	"gd": {
 		"win": "2.2081",
 		"mac": "2.2081",
@@ -8,7 +8,7 @@
 	},
 	"id": "ml5.checkpoint-vibe-check",
 	"name": "Is \"Disable checkpoints\" on?",
-	"version": "v1.0.3-beta.1",
+	"version": "v1.0.3",
 	"developer": "ML500",
 	"description": "The name is self-explanatory",
 	"settings": {
